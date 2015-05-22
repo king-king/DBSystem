@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+
+
+    function log( message ) {
+        var xhr = new XMLHttpRequest();
+        xhr.open( "post", "http://localhost:8686", true );
+        xhr.send( JSON.stringify( {
+            message : message
+        } ) );
+    }
+
+    var remote = {
+        log : log
+    };
+
+
+    remote.log( "好听的歌曲" );
+
+</script>
+</body>
+</html>
