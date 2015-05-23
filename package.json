@@ -1,12 +1,9 @@
 {
-	"name": "remote-debug",
-	"version": "0.0.1",
-	"main": "index.html",
-	"window": {
-		"title": "远程调试系统",
-		"toolbar": false,
-		"fullscreen": true,
-		"resizable": true
-	},
-	"author": "wangqun"
+  "name": "remote-debug",
+  "version": "0.0.1",
+  "main": "index.html",
+  "window": {
+    "title": "远程调试系统"
+  },
+  "author": "wangqun"
 }
